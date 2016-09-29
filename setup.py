@@ -1,6 +1,6 @@
 import os
 
-from distutils.core import setup
+from setuptools import setup
 
 here = os.path.abspath(os.path.dirname(__file__))
 
@@ -12,16 +12,18 @@ requires = [
     'peewee'
 ]
 
+version = '0.1.1'
+
 setup(
     name='peewee_mssql',
-    version='0.1.0',
+    version=version,
     py_modules=['peewee_mssql'],
     description='MS SQL Server support for the peewee ORM',
     long_description=README,
     author='Constantin Roganov',
     author_email='rccbox@gmail.com',
     url='https://github.com/brake/peewee_mssql',
-    download_url='https://github.com/brake/peewee_mssql/archive/0.1.0.zip', 
+    download_url='https://github.com/brake/peewee_mssql/archive/' + version + '.zip', 
     keywords=['database', 'ORM', 'peewee', 'mssql'],
     classifiers=[
         'Development Status :: 4 - Beta',
