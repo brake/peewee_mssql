@@ -5,11 +5,10 @@ MS SQL Support for [peewee](https://github.com/coleifer/peewee), lightweight Pyt
 
 Inspired by [this](https://github.com/coleifer/peewee/issues/122) post.
 
-At this moment it's in initial stage and can for sure:
+At this moment it's in initial stage and supports [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations. 
 
-1. insert data into a table
-2. delete data from a table (single row as well as multiple rows)
-3. select data from a table
+May be it has more features, but I have not tested them yet.
 
-May be it has more features, but I have not tested them yet. 
+For now only tested with python 2.7 and MS SQL Server 2008.
 
+Known alternative (with declared python3 support): [peewee-mssql](https://pypi.python.org/pypi/peewee-mssql)
