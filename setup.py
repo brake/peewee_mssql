@@ -1,25 +1,25 @@
-#import os
+import os
 
 from setuptools import setup
 
-#here = os.path.abspath(os.path.dirname(__file__))
+here = os.path.abspath(os.path.dirname(__file__))
 
-#with open(os.path.join(here, 'README.md')) as f:
-#    README = f.read()
+with open(os.path.join(here, 'README.rst')) as f:
+    README = f.read()
     
 requires = [
     'pyodbc',
     'peewee'
 ]
 
-version = '0.1.2'
+version = '0.1.3'
 
 setup(
     name='peewee_mssql',
     version=version,
     py_modules=['peewee_mssql'],
     description='MS SQL Server support for the peewee ORM',
-#   long_description=README,
+    long_description=README,
     author='Constantin Roganov',
     author_email='rccbox@gmail.com',
     url='https://github.com/brake/peewee_mssql',
