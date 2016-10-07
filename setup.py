@@ -12,12 +12,12 @@ requires = [
     'peewee'
 ]
 
-version = '0.1.3'
+version = '0.1.4'
 
 setup(
-    name='peewee_mssql',
+    name='peewee_mssqlserv',
     version=version,
-    py_modules=['peewee_mssql'],
+    py_modules=['peewee_mssqlserv'],
     description='MS SQL Server support for the peewee ORM',
     long_description=README,
     author='Constantin Roganov',
