@@ -1,11 +1,11 @@
 # -*- coding: UTF-8 -*-
 # -------------------------------------------------------------------------------
-# Name:    peewee_mssql.py        
-# Package: peewee_mssql
+# Name:    peewee_mssqlserv.py        
+# Package: peewee_mssqlserv
 # Project: peewee_mssql     
 #
 # Created: 19.11.2014 14:33    
-# Copyright:  (c) Constantin Roganov, 2014 
+# Copyright:  (c) Constantin Roganov, 2014-2016 
 # Licence:    MIT
 #-------------------------------------------------------------------------------
 #!/usr/bin/env/python
